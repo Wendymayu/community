@@ -29,9 +29,6 @@ public class AuthorizeController {
     @Autowired
     private UserStrategyFactory userStrategyFactory;
 
-    @Autowired
-    private GithubProvider githubProvider;
-
     @Value("${github.client.id}")
     private String clientId;
 

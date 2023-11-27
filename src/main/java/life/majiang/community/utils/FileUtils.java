@@ -83,9 +83,4 @@ public class FileUtils {
             log.debug("FILE_UTILS_ERROR", e);
         }
     }
-
-    public static void main(String[] args) {
-        String x = FileUtils.newLocalFileName("http://luckydraw.cn-bj.ufileos.com/ffb5134b-8070-4d65-be0f-c3b1a0050dbc.jpg");
-        System.out.println(x);
-    }
 }

@@ -6,7 +6,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.4.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>life.majiang.community</groupId>
     <artifactId>community</artifactId>
@@ -135,7 +135,7 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>5.2.4</version>
                 <configuration>
-                    <url>${db.url}community</url>
+                    <url>${db.url}</url>
                     <user>${db.user}</user>
                     <password>${db.password}</password>
                 </configuration>
